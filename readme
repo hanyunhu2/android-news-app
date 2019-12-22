@@ -10,8 +10,10 @@ dependencies 섹션에 지원 라이브러리 추가
         implementation 'com.android.support:recyclerview-v7:28.0.0'
     }
     
-    
-
+==>
+androidx
+==>
+https://codingwithmitch.com/blog/what-is-androidx/
 Step 2. Migrating to AndroidX
 
 Now that you have Android Studio version 3.+, migrating to AndroidX is very simple. 
@@ -21,4 +23,8 @@ In Android Studio go to Refactor > Migrate to AndroidX
 
  implementation 'androidx.recyclerview:recyclerview:1.0.0'
  
- 
+ news api
+ News API - A JSON API for live news and blog articles
+https://newsapi.org
+
+
