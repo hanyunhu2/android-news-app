@@ -12,3 +12,13 @@ dependencies 섹션에 지원 라이브러리 추가
     
     
 
+Step 2. Migrating to AndroidX
+
+Now that you have Android Studio version 3.+, migrating to AndroidX is very simple. 
+
+In Android Studio go to Refactor > Migrate to AndroidX 
+
+
+ implementation 'androidx.recyclerview:recyclerview:1.0.0'
+ 
+ 
