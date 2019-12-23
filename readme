@@ -27,4 +27,56 @@ In Android Studio go to Refactor > Migrate to AndroidX
  News API - A JSON API for live news and blog articles
 https://newsapi.org
 
+android cardview
+
+https://developer.android.com/guide/topics/ui/layout/cardview
+
+    dependencies {
+        implementation 'com.android.support:cardview-v7:28.0.0'
+    }
+    
+    
+    dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+androidx.cardview.widget.CardView
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        ... >
+        <!-- A CardView that contains a TextView -->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp">
+
+            <TextView
+                android:id="@+id/info_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    
+    
+            <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            card_view:cardCornerRadius="4dp">
+
+            <TextView
+                android:id="@+id/info_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
 
