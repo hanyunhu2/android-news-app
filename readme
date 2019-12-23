@@ -80,3 +80,7 @@ androidx.cardview.widget.CardView
         </androidx.cardview.widget.CardView>
 
 
+json : 
+fresco : facebook image 관리
+android volley : http 통신
+
