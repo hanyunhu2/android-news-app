@@ -88,4 +88,6 @@ https://github.com/facebook/fresco
 implementation 'com.facebook.fresco:fresco:2.0.0'
 
 https://github.com/google/volley/blob/master/rules.gradle
+https://github.com/google/volley
+
 implementation "androidx.annotation:annotation:1.0.1"
