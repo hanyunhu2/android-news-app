@@ -94,6 +94,13 @@ implementation "androidx.annotation:annotation:1.0.1"
 
 
 
+모든 데이터를 한번에 내려받는 것이 아니고, 적절한 크기의(예: 30개) 데이터를 받아서 화면에 보여주는 방식입니다. 
+특이점은 모바일에서는 Infinite scrolling(Endless scrolling)이라고 하는 모바일에 최적화된 UX입니다. 
+스크롤이 페이지 하단에 도달하는 것을 감지해서 다음 페이지의 데이터를 받아오는 기법이고요. 
+트위터, 핀터레스트, 플레이스토어 등등 많은 앱들이 이러한 방식을 사용합니다.
+
+
+
 row data list click link
 https://coding-dahee.tistory.com/36
 
