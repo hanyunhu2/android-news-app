@@ -99,6 +99,9 @@ implementation "androidx.annotation:annotation:1.0.1"
 스크롤이 페이지 하단에 도달하는 것을 감지해서 다음 페이지의 데이터를 받아오는 기법이고요. 
 트위터, 핀터레스트, 플레이스토어 등등 많은 앱들이 이러한 방식을 사용합니다.
 
+[android] Infinite Scroll 구현 예제
+https://codehanry.tistory.com/17
+
 
 
 row data list click link
