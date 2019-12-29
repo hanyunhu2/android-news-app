@@ -111,6 +111,7 @@ scrolling data list more
 https://stackoverflow.com/questions/36471309/endless-scrolling-in-recyclerview-how-should-i-implement-this
 
 
+https://github.com/CheezyCode/TechieDesi
 
 
 Try to pass the serializable list using Bundle.Serializable:
