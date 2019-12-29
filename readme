@@ -110,3 +110,18 @@ https://coding-dahee.tistory.com/36
 scrolling data list more
 https://stackoverflow.com/questions/36471309/endless-scrolling-in-recyclerview-how-should-i-implement-this
 
+
+
+
+Try to pass the serializable list using Bundle.Serializable:
+
+Bundle bundle = new Bundle();
+bundle.putSerializable("value", all_thumbs);
+intent.putExtras(bundle);
+And in SomeClass Activity get it as:
+
+Intent intent = this.getIntent();
+Bundle bundle = intent.getExtras();
+
+List<Thumbnail> thumbs=
+               (List<Thumbnail>)bundle.getSerializable("value");
